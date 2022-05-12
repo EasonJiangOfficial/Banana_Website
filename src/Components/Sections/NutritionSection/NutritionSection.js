@@ -1,6 +1,6 @@
 import "./NutritionSection.css"
 import BananaLogo from "./banana_icon.png"
-import NutritionLabel from "./Nutrition_Label.png"
+import NutritionLabel from "./nutrition_label.png"
 export default function NutritionSection(){
     return(
         <section className="NutritionSection">
