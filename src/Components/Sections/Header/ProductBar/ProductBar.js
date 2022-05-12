@@ -1,5 +1,5 @@
 import "../Header.css"
-import Popup from "../../images/Popup/Popup"
+import Popup from "../../../Popup/Popup"
 import {useState,useEffect} from "react"
 
 export default function ProductBar(){

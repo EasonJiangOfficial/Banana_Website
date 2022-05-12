@@ -1,6 +1,6 @@
 import { Routes, Route, Link } from "react-router-dom";
 import "../Header.css"
-import Logo from "../../images/logo.png"
+import Logo from "../../../images/logo.png"
 export default function NavBar(){
     return(
         <header className="Nav">

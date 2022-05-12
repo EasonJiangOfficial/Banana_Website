@@ -1,5 +1,5 @@
 import "../HomeSection.css"
-import Banana from "../../images/banana.jpg"
+import Banana from "../../../images/banana.jpg"
 export default function Section1(){
     return(
         <section className="Section1">

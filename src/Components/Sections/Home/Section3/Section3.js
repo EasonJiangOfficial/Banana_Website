@@ -1,8 +1,8 @@
 import "../HomeSection.css"
-import Peel from "../../images/peel.png"
-import MarioBanana from "../../images/mario_banana.png"
-import Curved from "../../images/curved.png"
-import Peel2 from "../../images/peel2.png"
+import Peel from "../../../images/peel.png"
+import MarioBanana from "../../../images/mario_banana.png"
+import Curved from "../../../images/curved.png"
+import Peel2 from "../../../images/peel2.png"
 export default function Section3(){
     return(
         <section className="Section3">
