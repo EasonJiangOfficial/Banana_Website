@@ -1,5 +1,4 @@
-import "../HomeSection.css"
-import { Animator, ScrollContainer, ScrollPage, batch, FadeIn, FadeInIn, Move, MoveIn, MoveOut, Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
+import "../HomeSection.css";
 export default function Section2(){
     return(
         <section className="Section2">
