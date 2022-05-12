@@ -1,11 +1,12 @@
 import "../BuyNow.css"
+import ForbesLogo from "../forbes.png"
 export default function Description(){
 return(
     <section className="Description">
         <div className="FeaturedOn">
             <h1>Featured On</h1>
             <div className="FeaturedOnContainer">
-                <img alt="Forbes Logo" src="../forbes.png"/>
+                <img alt="Forbes Logo" src={ForbesLogo}/>
                 <img alt="Inc Logo" src="../inc_logo.png"/>
                 <img alt="SharkTank Logo" src="../sharktank_logo.png"/>
                 <img alt="abc Logo" src="../abc.png"/>
