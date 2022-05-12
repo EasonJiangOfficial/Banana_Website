@@ -5,7 +5,7 @@ export default function NavBar(){
         <header className="Nav">
             <div className="header-containers">
                 <Link className="NavLink" to="/Home">
-                    <img loading="lazy" alt="banana logo" className="logo" src={require("./logo.png")}/>    
+                    <img loading="lazy" alt="banana logo" className="logo" src="./logo.png"/>    
                 </Link>
                 <ul>
                     <li className="NavElement"><Link className="NavLink" to="/Home">Home</Link></li>

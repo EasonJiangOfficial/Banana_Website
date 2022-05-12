@@ -25,7 +25,7 @@ export default function NutritionSection(){
                             </div>
                         </div>
                         <div className="NutritionLabelContainer">
-                            <img alt="banana nutirence label"src={require("./nutrience_label.png")}/>
+                            <img alt="banana nutirence label"src="./nutrience_label.png"/>
                         </div>
                     </div>
                 </div>
