@@ -188,7 +188,7 @@ font-size:7rem;
     transform:rotate(-90deg) scaleX(-1);
     margin:auto;
 }
-.TextContainer strong,.TextContainer i{
+.TextContainer b,.TextContainer i{
     color:#EAB424;
 }
 .TextContainer i{

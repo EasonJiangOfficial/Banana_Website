@@ -1,6 +1,6 @@
 import "./NutritionSection.css"
 import BananaLogo from "./banana_icon.png"
-import NutritionLabel from "./nutrition_label.png"
+import NutrienceLabel from "./nutrience_label.png"
 export default function NutritionSection(){
     return(
         <section className="NutritionSection">
@@ -27,7 +27,7 @@ export default function NutritionSection(){
                             </div>
                         </div>
                         <div className="NutritionLabelContainer">
-                            <img src={NutritionLabel}/>
+                            <img src={NutrienceLabel}/>
                         </div>
                     </div>
                 </div>

@@ -5,7 +5,7 @@ export default function Section3(){
             <div className="GridContainer">
                 <div className="container1">
                     <div className="TextContainer">
-                        <p><strong>New</strong></p>
+                        <p><b>New</b></p>
                         <p>Yellow</p>
                         <p>Peel</p>
                     </div>
@@ -14,7 +14,7 @@ export default function Section3(){
                 <div className="container2">
                 <img loading="lazy" alt="banana from mario cart" className="MarioBanana" src={require("./mario_banana.png")}/>
                     <div className="TextContainer">
-                        <p>More <strong>slippery</strong></p>
+                        <p>More <b>slippery</b></p>
                         <p>than any other</p>
                         <p>banana peel</p>
                     </div>
@@ -28,7 +28,7 @@ export default function Section3(){
                     <div className="ContainerDiv">
                         <div className="TextContainer">
                             <p>So Dang</p>
-                            <p><strong>Curvy</strong></p>
+                            <p><b>Curvy</b></p>
                         </div>
                         <img loading="lazy"alt="curved banana" className="Curved" src={require("./curved.png")}/>
                     </div>
