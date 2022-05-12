@@ -14,10 +14,12 @@ place-content:center;
     height:20em;
     border-radius:500px;
     margin:10vh 0px 10vh 0px;
-    display:grid;
+    display:flex;
     place-items:center;
     padding:15px;
     transition:.5s;
+    align-items:center;
+    justify-content:center;
 }
 .FactsContainer>img{
     width:10em;
