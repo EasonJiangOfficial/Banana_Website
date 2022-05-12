@@ -10,7 +10,7 @@ export default function Section1(){
                 <h1>Oh.So.Tasty</h1>
             </div>
             <Animator animation={batch(FadeIn())}>
-                <img loading="lazy" alt="banana" className="BananaImg" src={require("./Banana.jpg")}/>
+                <img loading="lazy" alt="banana" className="BananaImg" src={require("./banana.jpg")}/>
                 </Animator>
                 </ScrollPage>
                 </ScrollContainer>

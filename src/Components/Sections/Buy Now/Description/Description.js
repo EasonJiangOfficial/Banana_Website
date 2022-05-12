@@ -1,11 +1,11 @@
 import "../BuyNow.css"
 import Kale from "../kale.png"
-import GucciBanana from "../Gucci_Banana.png"
-import Forbes from "../Forbes.png"
-import Inc from "../Inc_Logo.png"
-import SharkTank from "../SharkTank_Logo.png"
+import GucciBanana from "../gucci_banana.png"
+import Forbes from "../forbes.png"
+import Inc from "../inc_logo.png"
+import SharkTank from "../sharktank_logo.png"
 import abc from "../abc.png"
-import TastyBanana from "../Tasty_Banana.jpg"
+import TastyBanana from "../tasty_banana.jpg"
 export default function Description(){
 return(
     <section className="Description">
