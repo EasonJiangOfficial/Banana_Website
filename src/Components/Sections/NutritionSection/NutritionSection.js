@@ -6,7 +6,7 @@ export default function NutritionSection(){
         <section className="NutritionSection">
             <div className="Container">
                 <div className="FactsContainer">
-                    <img src={bananalogo}/>
+                    <img alt="banana logo"src={require(bananalogo)}/>
                     <div className="NutritionInfo">
                         <div className="BadgesContainer">
                             <div className="DualContainer">
@@ -27,7 +27,7 @@ export default function NutritionSection(){
                             </div>
                         </div>
                         <div className="NutritionLabelContainer">
-                            <img src={nutriencelabel}/>
+                            <img alt="banana nutirence label"src={require(nutriencelabel)}/>
                         </div>
                     </div>
                 </div>
