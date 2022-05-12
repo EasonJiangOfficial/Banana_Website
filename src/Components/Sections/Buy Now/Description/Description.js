@@ -39,7 +39,7 @@ return(
         <div className="DescriptionContainer" id="3">
             <div className="PurchaseTextContainer">
                 <h1>Super Nutricious</h1>
-                <p>An apple a day is what keeps a doctor away. Thats well in all, but why keep them away when you can brag to them about how your gut microbiome is healthier than that 20$ kale salad you ate this morning. With the iBanana 13 Pro Max Ultimate your nutricion will be set for life. When you consume it, you will get an imidiate 500000% boost in all vitamins and minerals. What are the side effects of this stupendous amount of goodness you ask? Well the last person who was craziest enought to consume this fruit is now on mars.</p>
+                <p>An apple a day is what keeps a doctor away. Thats well in all, but why keep them away when you can brag to them about how your gut microbiome is healthier than that 20$ kale salad you ate this morning. With the iBanana 13 Pro Max Ultimate, your nutrition will be set for life. When you consume it, you will get an imidiate 500000% boost in all vitamins and minerals. What are the side effects of this stupendous amount of goodness you ask? Well the last person who was craziest enough to consume this fruit is now on mars.</p>
             </div>
             <div className="DescriptionImageContainer">
                 <img alt="kale" src={Kale}/>
