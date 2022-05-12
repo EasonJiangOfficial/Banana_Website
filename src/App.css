@@ -1,0 +1,8 @@
+*{
+    font-family:SF Pro display,arial,sans-serif;
+}
+body{
+    display:grid;
+    place-items:center;
+    overflow-x:hidden;
+}

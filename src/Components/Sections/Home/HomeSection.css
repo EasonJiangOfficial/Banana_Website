@@ -1,0 +1,258 @@
+.Section1,.Section2,.Section3,.Section5{
+    display: grid;
+    place-items: center;
+    width:100vw;
+}
+.Section4{
+    display:flex;
+    flex-wrap:no-wrap;
+    width:100vw;
+    height:50em;
+}
+.Section5{
+    width:100vw;
+    height:100vh;
+}
+.Section4Text{
+    width:100%;
+    display:grid;
+    text-align:left;
+    background-color:#EAB424;
+    padding-left:20px;
+    height:100%;
+    align-content:center;
+}
+.Section4Text h1,.TypeAnimation{
+    font-weight:500;
+    font-size:7rem;
+    color:white;
+    margin:0px;
+}
+.TypeAnimation{
+    margin-top:0px;
+    padding-top:0px;
+}
+.ImageContainer{
+    width:100%;
+    background-image:url("./Section4/eat_banana.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100%;
+    background-position:center;
+}
+.Section1,.Section3{
+    margin:6em 0rem;
+}
+.Section2{
+    background-color:#EAB424;
+}
+.text{
+    display:grid;
+    place-items:center;
+}
+.text > h1{
+    font-weight:600;
+    font-size:4rem;
+    margin-top:10px;
+}
+.text > h2{
+    margin-bottom:0px;
+    font-weight:500;
+}
+.BananaImg{
+    max-width:500px;
+   
+}
+.Benefits{
+    width:80%;
+    align-content:center;
+    text-align:center;
+    padding:50px;
+}
+.BenefitsText{
+    color:white;
+    font-weight:900;
+}
+.material-symbols-outlined{
+color:white;
+font-size:7rem;
+}
+
+.GridContainer{  
+    display:grid;
+    place-items:center;
+    grid-template-columns:repeat(5,200px);
+    grid-template-rows:repeat(8,175px);
+    grid-template-areas:
+    "a a b b b"
+    "a a b b b"
+    "a a b b b"
+    "c c c d d"
+    "c c c d d"
+    "c c c d d"
+    "c c c d d"
+    "e e e d d";
+    grid-gap:20px;
+}
+@media (max-width: 1000px){
+    .Peel2{
+        transform:translatey(-100px) translatex(5px)!important;
+        width:3em !important;
+    }
+    .Peel3{
+        transform:translatey(-50px) translatex(300px)!important;
+        width:3em !important;
+    }
+    .GridContainer{
+        grid-template-columns:400px;
+        grid-template-areas:
+    "a"
+    "a"
+    "a"
+    "b"
+    "b"
+    "b"
+    "c"
+    "c"
+    "c"
+    "c"
+    "d"
+    "d"
+    "d"
+    "d"
+    "d"
+    "e";
+    }
+    .TextContainer i{
+        font-size:3rem;
+    }
+    .Section4{
+        flex-wrap:wrap;
+        justify-content:center;
+        align-content:center;
+    }
+    .ImageContainer{
+        height:50%;
+    }
+    .Section4Text{
+        padding:0px;
+        height:50%;
+        text-align:center;
+        place-items:center;
+
+    }
+    .ProductBar{
+        height:fit-content;
+    }
+}
+.container1,.container2,.container3,.container4,.container5{
+    background-color:#F5F5F7;
+    width:100%;
+    height:100%;
+    border-radius:30px;
+}
+.container1{
+    grid-area: a;
+}
+.container2{
+    grid-area: b;
+    display:grid;
+}
+.container3{
+    grid-area: c;
+    background-image:url("./Section3/many_bananas.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.container4{
+    grid-area: d;
+    overflow:hide;
+    display:grid;
+    align-content:center;
+    justify-content:center;
+}
+.container5{
+    grid-area: e;
+}
+.container1 .TextContainer,.container2 .TextContainer{
+    height:50%;
+    width:100%;
+    margin:20px;
+}
+.container4 .TextContainer{
+    margin-top:1em;
+    text-align:center;
+}
+.Curved{
+    width:30em;
+    transform:rotate(-90deg) scaleX(-1);
+    margin:auto;
+}
+.TextContainer strong,.TextContainer i{
+    color:#EAB424;
+}
+.TextContainer i{
+    font-weight:600;
+}
+.TextContainer p{
+    font-size:3rem;
+    font-weight:500;
+    margin:0;
+}
+.container5 .TextContainer{
+    font-size:5rem;
+    height:100%;
+    width:100%;
+    display:grid;
+    text-align:center;
+    place-items:center;
+}
+.Peel{
+    z-index:1;
+    width:25em;
+}
+.container2 .Peel{
+    transform:rotate(145deg) translatex(-500px) translatey(-100px);
+}
+.Peel2,.Peel3{
+    width:5em;
+}
+.Peel2{
+    transform:translatey(-165px);
+}
+.Peel3{
+    transform:translate(475px,-70px);
+}
+.MarioBanana{
+    width:20em;
+    margin-left:auto;
+    padding:20px;
+}
+.typed-cursor{
+    color:white !important;
+    font-size:100px !important;
+}
+@keyframes changeColor{
+  0%{
+    color:black;
+  }
+  50%{
+    color:yellow;
+  }
+  100%{
+    color:black;
+  }
+}
+
+.Section5 h1{
+    font-size:4rem;
+    animation:changeColor 2.5s linear;
+    animation-iteration-count: infinite;
+    transition-duration:1s;
+}
+.Section5 h1:hover{
+    transform:translatey(-10px);
+}
+.Section5{
+    margin-bottom:12em;
+}

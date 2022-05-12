@@ -1,0 +1,12 @@
+.popup{
+    background-color:#EAB424;
+    font-size:.5rem;
+    color:white;
+    padding:5px 100px 5px 100px;
+    border-radius:5px;
+    display:flex;
+    align-content:center;
+    justify-content:center;
+    position:fixed;
+    top:15px;
+}

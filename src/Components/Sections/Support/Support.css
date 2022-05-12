@@ -1,0 +1,55 @@
+.SupportSection{
+    width:100vw;
+    display:grid;
+    place-items:center;
+    margin-bottom:5vh;
+}
+.Form{
+    width:85vw;
+    display:grid;
+    align-content:center;
+}
+.Form h1{
+    text-align:center;
+    font-size:4rem;
+}
+input{
+    width:50vw;
+    height:6vh;
+    border-radius:30px;
+    border:solid #7B7B7D 1px;
+    background-color:#F5F5F7;
+    color:black;
+    font-size:1.5rem;
+    padding:5px;
+}
+input#Message{
+    height:25vh;
+}
+form{
+    display:grid;
+    place-items:center;
+
+}
+.InputContainer{
+    display:grid;
+    margin:10px 0px 10px 0px;
+}
+button[type="submit"]{
+    padding:10px 150px 10px 150px;
+    border:#7B7B7D solid 1px;
+    margin-top:10px;
+    border-radius:30px;
+    background-color:#EAB424;
+    color:white;
+}
+button[type="submit"]:hover{
+    transform:translatey(-4px);
+    box-shadow:10px;
+    transition:.5s;
+    background-color:white;
+    color:#EAB424;
+}
+label{
+    margin-bottom:5px;
+}

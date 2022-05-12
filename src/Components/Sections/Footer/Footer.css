@@ -1,0 +1,26 @@
+.Footer{
+    background-color:#F5F5F7;
+    width:100vw;
+    height:25vh;
+    display:grid;
+    align-content:center;
+}
+.FooterContainer{
+    display:flex;
+    justify-content:center;
+}
+.FooterContainer ul{
+    margin:0px;
+    list-style:none;
+    padding:0px;
+    display:flex;
+
+}
+.FooterNavElement{
+    margin:0px 10px 0px 10px;
+}
+.NavLink{
+    color:#666669;
+    text-decoration:none;
+    font-size:1rem;
+}

@@ -1,0 +1,166 @@
+main{
+    align-content:center;
+    justify-content:center;
+}
+.ImageHolder{
+    width:50%;
+    display:grid;
+    place-items:center;
+}
+.ImageHolder img{
+    width:95%;
+}
+.DescriptionImageContainer img,.ImageHolder img{
+    border-radius:20px;
+}
+.ProductInfo{
+    width:50%;
+}
+.PurchaseSection{
+    justify-content:center;
+    align-content:center;
+    margin-top:50px;
+    display:flex;
+}
+.Description{
+    display:grid;
+    place-items:center;
+    justify-content:center;
+    align-content:center;
+    grid-gap:25px;
+    width:100vw;
+    margin:10vh 0px 10vh 0px;
+}
+.DescriptionContainer{
+    display:flex;
+    align-content:center;
+    justify-content:center;
+    width:85vw;
+}
+.PurchaseSectionContainer{
+    width:85vw;
+    display:flex;
+}
+.PurchaseTextContainer{
+    dipslay:grid;
+    width:50%;
+    padding:15px;
+}
+.DescriptionImageContainer{
+    width:50%;
+    display:grid;
+    place-content:center;
+    grid-gap:15px;
+}
+.DescriptionImageContainer img{
+    width:100%;
+}
+.PurchaseTextContainer p{
+font-size:1rem;
+margin:0px;
+}
+.PurchaseTextContainer h1{
+    font-size:3rem;
+    margin:0px;
+}
+.ProductInfo h1{
+    font-size:4rem;
+    margin:0px;
+}
+.FeaturedOn{
+    background-color:#C2C2C2;
+    height:15vh;
+    width:inherit;
+    text-align:center;
+    height:fit-content;
+    display:grid;
+    place-content:center;
+    padding:30px;
+    
+}
+.FeaturedOn h1{
+    font-size:2.5rem;
+    margin:0px 0px 15px 0px;
+}
+.FeaturedOnContainer{
+    width:90vw;
+    display:flex;
+    justify-content:space-around;
+    align-content:center;
+    justify-content:space-around;
+}
+.FeaturedOnContainer img{
+    width:6em;
+}
+.CheckoutButtons{
+    border-radius:30px;
+    width:100%;
+    padding:15px;
+    margin:2px 0px;
+    cursor:pointer;
+}
+#cart{
+    border:#EAB424 solid 2px;
+    background-color:transparent;
+    color:#EAB424;
+}
+#purchase{
+    border:#EAB424 solid 2px;
+    background-color:#EAB424;
+    color:white;
+}
+#cart:hover{
+    transition:.5s;
+    background-color:#EAB424;
+    color:white;
+}
+#purchase:hover{
+    transition:.5s;
+    background-color:white;
+    color:#EAB424;
+}
+
+h3 > s{
+    color:#0071e3;
+}
+.Testimonial{
+    background-color:#EAB424;
+    display:grid;
+    place-content:center;
+    padding:25px;
+    height:15em;
+}
+.Testimonial h6,.Testimonial h1{
+    margin:0px;
+    text-align:center;
+}
+.Testimonial h1{
+    font-size:3rem;
+}
+.Testimonial h2{
+    text-align:right;
+}
+@media (max-width:1000px){
+    .FeaturedOn,.FeaturedOnContainer,.DescriptionContainer{
+        flex-direction:column;
+    }
+    .FeaturedOnContainer{
+        display:grid;
+        grid-gap:25px;
+    }
+    .PurchaseTextContainer{
+        width:inherit;
+        padding:10px 0px 10px 0px;
+    }
+    .DescriptionImageContainer{
+        width:100%;
+        align-content:center;
+        justify-content:center;
+    }
+    .ProductInfo,.ProductInfo,img,.ImageHolder{
+        width:100%;
+    }
+    .PurchaseSectionContainer{
+        flex-direction:column;
+    }
+}

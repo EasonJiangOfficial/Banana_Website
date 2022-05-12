@@ -1,0 +1,133 @@
+.NutritionSection{
+width:100vw;
+display:grid;
+place-content:center;
+}
+.Container{
+    width:85vw;
+    display:grid;
+    place-content:center;
+}
+.FactsContainer{
+    background-color:#FFC701;
+    width:20em;
+    height:20em;
+    border-radius:500px;
+    margin:10vh 0px 10vh 0px;
+    display:grid;
+    place-items:center;
+    padding:15px;
+    transition:.5s;
+}
+.FactsContainer>img{
+    width:10em;
+    height:10em;
+    position:absolute;
+    transition:.5s;
+}
+.FactsContainer:hover>img{
+    transition:.5s;
+    opacity:0;
+}
+.FactsContainer:hover{
+    transition:.75s;
+    border-radius:20px;
+    width:60vw;
+    height:70vh;
+}
+.NutritionInfo{
+    width:inherit;
+    height:inherit;
+    opacity:0;
+    display:flex;
+    align-items:center;
+}
+.FactsContainer:hover .NutritionInfo{
+    transition:.75s;
+    opacity:1;
+}
+.BadgesContainer{
+    width:50%;
+    display:grid;
+    height:max-content;
+    
+}
+.NutritionLabelContainer{
+    width:50%;
+    display:grid;
+    place-items:center;
+    height:100%;
+}
+.NutritionLabelContainer>img{
+    max-width:100%;
+    max-height:100%;
+    transition:.5s;
+}
+.NutritionLabelContainer>img:hover{
+    transition:.5s;
+    filter: drop-shadow(0 0 0.75rem grey);
+    transform:translatey(-10px);
+}
+@keyframes rotate{
+    100%{transform:rotateY(360deg)
+ };
+}
+.CircleBadges{
+    display:none;
+    width:7em;
+    height:7em;
+    background-color:white;
+    border:1px black solid;
+    border-radius:100px;
+    margin:10px;
+    padding:0px;
+    animation:rotate 3s linear infinite;
+    transition:.5s;
+}
+.CircleBadges:hover{
+    transition:1s;
+    transform:translatey(-10px);
+    animation:none;
+    filter:drop-shadow(0px 10px 10px black);
+}
+.DualContainer #Circle1{
+    animation-delay:.2s;
+}
+.DualContainer #Circle2{
+    animation-delay:.9s;
+}
+.DualContainer #Circle3{
+    animation-delay:.4s;
+}
+.DualContainer #Circle4{
+    animation-delay:.7s;
+}
+.FactsContainer:hover .CircleBadges{
+    display:grid;
+    place-items:center;
+    font-size:1rem;
+}
+.DualContainer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+@media only screen and (max-width: 1000px){
+    .NutritionInfo{
+        flex-direction:column;
+        align-content:center;
+        justify-content:center;
+    }
+    .FactsContainer:hover{
+        transition:.5s;
+        height:fit-content;
+        width:fit-content;
+    }
+    .BadgesContainer{
+        width:100%;
+    }
+    .NutritionLabelContainer img{
+        
+    }
+}
