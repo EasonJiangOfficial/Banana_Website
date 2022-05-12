@@ -9,10 +9,10 @@ export default function Section3(){
                         <p>Yellow</p>
                         <p>Peel</p>
                     </div>
-                    <img loading="lazy" alt="banana peel" className="Peel" src={require("./peel.png")}/>
+                    <img loading="lazy" alt="banana peel" className="Peel" src="./peel.png"/>
                 </div>
                 <div className="container2">
-                <img loading="lazy" alt="banana from mario cart" className="MarioBanana" src={require("./mario_banana.png")}/>
+                <img loading="lazy" alt="banana from mario cart" className="MarioBanana" src="./mario_banana.png"/>
                     <div className="TextContainer">
                         <p>More <b>slippery</b></p>
                         <p>than any other</p>
@@ -30,15 +30,15 @@ export default function Section3(){
                             <p>So Dang</p>
                             <p><b>Curvy</b></p>
                         </div>
-                        <img loading="lazy"alt="curved banana" className="Curved" src={require("./curved.png")}/>
+                        <img loading="lazy"alt="curved banana" className="Curved" src="./curved.png"/>
                     </div>
                 </div>
                 <div className="container5">
                     <div className="TextContainer">
                         <i>Slip Nonresistant</i>
                     </div>
-                    <img loading="lazy"alt="banana peel" className="Peel2" src={require("./peel2.png")}/>
-                    <img loading="lazy"alt="banana peel" className="Peel3" src={require("./peel2.png")}/>
+                    <img loading="lazy"alt="banana peel" className="Peel2" src="./peel2.png"/>
+                    <img loading="lazy"alt="banana peel" className="Peel3" src="./peel2.png"/>
                 </div>
             </div>
         </section>
