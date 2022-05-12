@@ -4,6 +4,7 @@
     height:25vh;
     display:grid;
     align-content:center;
+    margin-top:10vh;
 }
 .FooterContainer{
     display:flex;
