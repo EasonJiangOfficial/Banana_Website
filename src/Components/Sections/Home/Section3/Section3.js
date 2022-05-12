@@ -13,10 +13,10 @@ export default function Section3(){
                         <p>Yellow</p>
                         <p>Peel</p>
                     </div>
-                    <img loading="lazy" alt="banana peel" className="Peel" src={Peel}/>
+                    <img alt="banana peel" className="Peel" src={Peel}/>
                 </div>
                 <div className="container2">
-                <img loading="lazy" alt="banana from mario cart" className="MarioBanana" src={MarioBanana}/>
+                <img alt="banana from mario cart" className="MarioBanana" src={MarioBanana}/>
                     <div className="TextContainer">
                         <p>More <b>slippery</b></p>
                         <p>than any other</p>
@@ -34,15 +34,15 @@ export default function Section3(){
                             <p>So Dang</p>
                             <p><b>Curvy</b></p>
                         </div>
-                        <img loading="lazy"alt="curved banana" className="Curved" src={Curved}/>
+                        <img lt="curved banana" className="Curved" src={Curved}/>
                     </div>
                 </div>
                 <div className="container5">
                     <div className="TextContainer">
                         <i>Slip Nonresistant</i>
                     </div>
-                    <img loading="lazy"alt="banana peel" className="Peel2" src={Peel2}/>
-                    <img loading="lazy"alt="banana peel" className="Peel3" src={Peel2}/>
+                    <img lt="banana peel" className="Peel2" src={Peel2}/>
+                    <img lt="banana peel" className="Peel3" src={Peel2}/>
                 </div>
             </div>
         </section>
