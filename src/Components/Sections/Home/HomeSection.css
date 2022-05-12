@@ -34,7 +34,7 @@
 }
 .ImageContainer{
     width:100%;
-    background-image:url("./Section4/eat_banana.jpg");
+    background-image:url("../../images/eat_banana.jpg");
     background-repeat:no-repeat;
     background-size:cover;
     height:100%;
@@ -160,7 +160,7 @@ font-size:7rem;
 }
 .container3{
     grid-area: c;
-    background-image:url("./Section3/many_bananas.png");
+    background-image:url("../../images/many_bananas.png");
     background-repeat:no-repeat;
     background-size:cover;
 }
