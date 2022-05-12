@@ -1,11 +1,12 @@
 import { Routes, Route, Link } from "react-router-dom";
 import "../Header.css"
+import Logo from "../../images/logo.png"
 export default function NavBar(){
     return(
         <header className="Nav">
             <div className="header-containers">
                 <Link className="NavLink" to="/Home">
-                    <img loading="lazy" alt="banana logo" className="logo" src="./logo.png"/>    
+                    <img loading="lazy" alt="banana logo" className="logo" src={Logo}/>    
                 </Link>
                 <ul>
                     <li className="NavElement"><Link className="NavLink" to="/Home">Home</Link></li>

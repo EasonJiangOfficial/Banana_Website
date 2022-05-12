@@ -1,4 +1,5 @@
 import "../HomeSection.css"
+import Banana from "../../images/banana.jpg"
 export default function Section1(){
     return(
         <section className="Section1">
@@ -6,7 +7,7 @@ export default function Section1(){
                 <h2>iBanana 13 Pro Max Ultimate</h2>
                 <h1>Oh.So.Tasty</h1>
             </div>
-                <img loading="lazy" alt="banana" className="BananaImg" src="./banana.jpg"/>
+                <img loading="lazy" alt="banana" className="BananaImg" src={Banana}/>
         </section>
     )
 }

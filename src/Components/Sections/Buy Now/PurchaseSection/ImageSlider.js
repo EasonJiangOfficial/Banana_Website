@@ -1,5 +1,5 @@
 import "../BuyNow.css"
-import ProductImage from "../product_image.jpg"
+import ProductImage from "../../images/product_image.jpg"
 
 export default function ImageSlider(){
 return(

@@ -1,10 +1,12 @@
 import "./NutritionSection.css"
+import BananaIcon from "../../images/banana_icon.png"
+import Label from "../../images/nutrience_label.png"
 export default function NutritionSection(){
     return(
         <section className="NutritionSection">
             <div className="Container">
                 <div className="FactsContainer">
-                    <img alt="banana logo" src="./banana_icon.png"/>
+                    <img alt="banana logo" src={BananaIcon}/>
                     <div className="NutritionInfo">
                         <div className="BadgesContainer">
                             <div className="DualContainer">
@@ -25,7 +27,7 @@ export default function NutritionSection(){
                             </div>
                         </div>
                         <div className="NutritionLabelContainer">
-                            <img alt="banana nutirence label"src="./nutrience_label.png"/>
+                            <img alt="banana nutirence label"src={Label}/>
                         </div>
                     </div>
                 </div>

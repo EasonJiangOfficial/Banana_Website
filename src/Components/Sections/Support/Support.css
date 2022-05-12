@@ -2,7 +2,7 @@
     width:100vw;
     display:grid;
     place-items:center;
-    background-image:url("./peely_skin.png");
+    background-image:url("../../images/peely_skin.png");
     background-repeat:no-repeat;
 }
 .Form{
